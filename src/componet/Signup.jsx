@@ -1,17 +1,33 @@
-import React from "react";
+import React, { useState } from "react";
 
-export const Signup = () => {
+function App() {
+  const [username, setusername] = useState("");
+  const [email, setEmail] = useState("");
+  const [phone, setphone] = useState("");
+  const [hq, sethq] = useState("");
+  const [py, setpy] = useState("");
+  const [dob, setdob] = useState("");
+  const [gender, setgender] = useState("");
+  const [state, setstate] = useState("");
+  const [password, setpassword] = useState("");
+  
+}
+  
+
+
+
+export const Signup = () => {  
   return (
     <>
-      <div>Signup</div>
       <div>
         <a href="/">Login</a>
       </div>
-      <form>
+      <div >Signup</div>
+      <form >
         <br />
         <label htmlFor="username">Username</label>
         <br />
-        <input type="text" name="username" id="username" />
+        <input type="text" name="username" id="username"  />
         <br />
         <label htmlFor="hq">Highest Qualification</label>
         <br />
@@ -46,8 +62,8 @@ export const Signup = () => {
         <input type="text" name="password" id="password" />
         <br />
 
-        <button type="submit">REGISTER</button>
+        <button type="submit" >REGISTER</button>
       </form>
     </>
   );
-};
+}
