@@ -1,20 +1,17 @@
 import React, { useState } from "react";
 
-function App() {
-  const [username, setusername] = useState("");
-  const [email, setEmail] = useState("");
-  const [phone, setphone] = useState("");
-  const [hq, sethq] = useState("");
-  const [py, setpy] = useState("");
-  const [dob, setdob] = useState("");
-  const [gender, setgender] = useState("");
-  const [state, setstate] = useState("");
-  const [password, setpassword] = useState("");
+// function App() {
+//   const [username, setusername] = useState("");
+//   const [email, setEmail] = useState("");
+//   const [phone, setphone] = useState("");
+//   const [hq, sethq] = useState("");
+//   const [py, setpy] = useState("");
+//   const [dob, setdob] = useState("");
+//   const [gender, setgender] = useState("");
+//   const [state, setstate] = useState("");
+//   const [password, setpassword] = useState("");
   
-}
-  
-
-
+// }
 
 export const Signup = () => {  
   return (
@@ -22,7 +19,7 @@ export const Signup = () => {
       <div>
         <a href="/">Login</a>
       </div>
-      <div >Signup</div>
+      <div>Signup</div>
       <form >
         <br />
         <label htmlFor="username">Username</label>
